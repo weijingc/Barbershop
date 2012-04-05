@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AC4AE07152563F400E2C83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE06152563F400E2C83E /* UIKit.framework */; };
+		8AC4AE09152563F400E2C83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE08152563F400E2C83E /* Foundation.framework */; };
+		8AC4AE0B152563F400E2C83E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE0A152563F400E2C83E /* CoreGraphics.framework */; };
+		8AC4AE11152563F400E2C83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE0F152563F400E2C83E /* InfoPlist.strings */; };
+		8AC4AE13152563F400E2C83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AE12152563F400E2C83E /* main.m */; };
+		8AC4AE17152563F400E2C83E /* BarbershopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AE16152563F400E2C83E /* BarbershopAppDelegate.m */; };
+		8AC4AE1A152563F400E2C83E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE18152563F400E2C83E /* MainWindow.xib */; };
+		8AC4AE1D152563F400E2C83E /* BarbershopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AE1C152563F400E2C83E /* BarbershopViewController.m */; };
+		8AC4AE20152563F400E2C83E /* BarbershopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE1E152563F400E2C83E /* BarbershopViewController.xib */; };
+		8AC4AE28152563F400E2C83E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE27152563F400E2C83E /* SenTestingKit.framework */; };
+		8AC4AE29152563F400E2C83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE06152563F400E2C83E /* UIKit.framework */; };
+		8AC4AE2A152563F400E2C83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE08152563F400E2C83E /* Foundation.framework */; };
+		8AC4AE2B152563F400E2C83E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AE0A152563F400E2C83E /* CoreGraphics.framework */; };
+		8AC4AE33152563F400E2C83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE31152563F400E2C83E /* InfoPlist.strings */; };
+		8AC4AE35152563F400E2C83E /* BarbershopTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE34152563F400E2C83E /* BarbershopTests.h */; };
+		8AC4AE37152563F400E2C83E /* BarbershopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AE36152563F400E2C83E /* BarbershopTests.m */; };
+		8AC4AE43152564BE00E2C83E /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AE41152564BE00E2C83E /* PickerView.m */; };
+		8AC4AE44152564BE00E2C83E /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE42152564BE00E2C83E /* PickerView.xib */; };
+		8AC4AE481525920B00E2C83E /* homeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AE461525920B00E2C83E /* homeView.m */; };
+		8AC4AE491525920B00E2C83E /* homeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AE471525920B00E2C83E /* homeView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AC4AE2C152563F400E2C83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AC4ADF9152563F400E2C83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AC4AE01152563F400E2C83E;
+			remoteInfo = Barbershop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AC4AE02152563F400E2C83E /* Barbershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4AE06152563F400E2C83E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AC4AE08152563F400E2C83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AC4AE0A152563F400E2C83E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AC4AE0E152563F400E2C83E /* Barbershop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barbershop-Info.plist"; sourceTree = "<group>"; };
+		8AC4AE10152563F400E2C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC4AE12152563F400E2C83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AC4AE14152563F400E2C83E /* Barbershop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barbershop-Prefix.pch"; sourceTree = "<group>"; };
+		8AC4AE15152563F400E2C83E /* BarbershopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarbershopAppDelegate.h; sourceTree = "<group>"; };
+		8AC4AE16152563F400E2C83E /* BarbershopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarbershopAppDelegate.m; sourceTree = "<group>"; };
+		8AC4AE19152563F400E2C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8AC4AE1B152563F400E2C83E /* BarbershopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarbershopViewController.h; sourceTree = "<group>"; };
+		8AC4AE1C152563F400E2C83E /* BarbershopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarbershopViewController.m; sourceTree = "<group>"; };
+		8AC4AE1F152563F400E2C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BarbershopViewController.xib; sourceTree = "<group>"; };
+		8AC4AE26152563F400E2C83E /* BarbershopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbershopTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4AE27152563F400E2C83E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8AC4AE30152563F400E2C83E /* BarbershopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarbershopTests-Info.plist"; sourceTree = "<group>"; };
+		8AC4AE32152563F400E2C83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC4AE34152563F400E2C83E /* BarbershopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarbershopTests.h; sourceTree = "<group>"; };
+		8AC4AE36152563F400E2C83E /* BarbershopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarbershopTests.m; sourceTree = "<group>"; };
+		8AC4AE40152564BE00E2C83E /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		8AC4AE41152564BE00E2C83E /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		8AC4AE42152564BE00E2C83E /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		8AC4AE451525920B00E2C83E /* homeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeView.h; sourceTree = "<group>"; };
+		8AC4AE461525920B00E2C83E /* homeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeView.m; sourceTree = "<group>"; };
+		8AC4AE471525920B00E2C83E /* homeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC4ADFF152563F400E2C83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4AE07152563F400E2C83E /* UIKit.framework in Frameworks */,
+				8AC4AE09152563F400E2C83E /* Foundation.framework in Frameworks */,
+				8AC4AE0B152563F400E2C83E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4AE22152563F400E2C83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4AE28152563F400E2C83E /* SenTestingKit.framework in Frameworks */,
+				8AC4AE29152563F400E2C83E /* UIKit.framework in Frameworks */,
+				8AC4AE2A152563F400E2C83E /* Foundation.framework in Frameworks */,
+				8AC4AE2B152563F400E2C83E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AC4ADF7152563F400E2C83E = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE0C152563F400E2C83E /* Barbershop */,
+				8AC4AE2E152563F400E2C83E /* BarbershopTests */,
+				8AC4AE05152563F400E2C83E /* Frameworks */,
+				8AC4AE03152563F400E2C83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC4AE03152563F400E2C83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE02152563F400E2C83E /* Barbershop.app */,
+				8AC4AE26152563F400E2C83E /* BarbershopTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC4AE05152563F400E2C83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE06152563F400E2C83E /* UIKit.framework */,
+				8AC4AE08152563F400E2C83E /* Foundation.framework */,
+				8AC4AE0A152563F400E2C83E /* CoreGraphics.framework */,
+				8AC4AE27152563F400E2C83E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC4AE0C152563F400E2C83E /* Barbershop */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE15152563F400E2C83E /* BarbershopAppDelegate.h */,
+				8AC4AE16152563F400E2C83E /* BarbershopAppDelegate.m */,
+				8AC4AE18152563F400E2C83E /* MainWindow.xib */,
+				8AC4AE1B152563F400E2C83E /* BarbershopViewController.h */,
+				8AC4AE1C152563F400E2C83E /* BarbershopViewController.m */,
+				8AC4AE1E152563F400E2C83E /* BarbershopViewController.xib */,
+				8AC4AE451525920B00E2C83E /* homeView.h */,
+				8AC4AE461525920B00E2C83E /* homeView.m */,
+				8AC4AE471525920B00E2C83E /* homeView.xib */,
+				8AC4AE0D152563F400E2C83E /* Supporting Files */,
+				8AC4AE40152564BE00E2C83E /* PickerView.h */,
+				8AC4AE41152564BE00E2C83E /* PickerView.m */,
+				8AC4AE42152564BE00E2C83E /* PickerView.xib */,
+			);
+			path = Barbershop;
+			sourceTree = "<group>";
+		};
+		8AC4AE0D152563F400E2C83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE0E152563F400E2C83E /* Barbershop-Info.plist */,
+				8AC4AE0F152563F400E2C83E /* InfoPlist.strings */,
+				8AC4AE12152563F400E2C83E /* main.m */,
+				8AC4AE14152563F400E2C83E /* Barbershop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AC4AE2E152563F400E2C83E /* BarbershopTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE34152563F400E2C83E /* BarbershopTests.h */,
+				8AC4AE36152563F400E2C83E /* BarbershopTests.m */,
+				8AC4AE2F152563F400E2C83E /* Supporting Files */,
+			);
+			path = BarbershopTests;
+			sourceTree = "<group>";
+		};
+		8AC4AE2F152563F400E2C83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AE30152563F400E2C83E /* BarbershopTests-Info.plist */,
+				8AC4AE31152563F400E2C83E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC4AE01152563F400E2C83E /* Barbershop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC4AE3A152563F400E2C83E /* Build configuration list for PBXNativeTarget "Barbershop" */;
+			buildPhases = (
+				8AC4ADFE152563F400E2C83E /* Sources */,
+				8AC4ADFF152563F400E2C83E /* Frameworks */,
+				8AC4AE00152563F400E2C83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barbershop;
+			productName = Barbershop;
+			productReference = 8AC4AE02152563F400E2C83E /* Barbershop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AC4AE25152563F400E2C83E /* BarbershopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC4AE3D152563F400E2C83E /* Build configuration list for PBXNativeTarget "BarbershopTests" */;
+			buildPhases = (
+				8AC4AE21152563F400E2C83E /* Sources */,
+				8AC4AE22152563F400E2C83E /* Frameworks */,
+				8AC4AE23152563F400E2C83E /* Resources */,
+				8AC4AE24152563F400E2C83E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AC4AE2D152563F400E2C83E /* PBXTargetDependency */,
+			);
+			name = BarbershopTests;
+			productName = BarbershopTests;
+			productReference = 8AC4AE26152563F400E2C83E /* BarbershopTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC4ADF9152563F400E2C83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Rensenlaer Polytechnic Institute";
+			};
+			buildConfigurationList = 8AC4ADFC152563F400E2C83E /* Build configuration list for PBXProject "Barbershop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AC4ADF7152563F400E2C83E;
+			productRefGroup = 8AC4AE03152563F400E2C83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC4AE01152563F400E2C83E /* Barbershop */,
+				8AC4AE25152563F400E2C83E /* BarbershopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC4AE00152563F400E2C83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4AE11152563F400E2C83E /* InfoPlist.strings in Resources */,
+				8AC4AE1A152563F400E2C83E /* MainWindow.xib in Resources */,
+				8AC4AE20152563F400E2C83E /* BarbershopViewController.xib in Resources */,
+				8AC4AE44152564BE00E2C83E /* PickerView.xib in Resources */,
+				8AC4AE491525920B00E2C83E /* homeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4AE23152563F400E2C83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4AE33152563F400E2C83E /* InfoPlist.strings in Resources */,
+				8AC4AE35152563F400E2C83E /* BarbershopTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AC4AE24152563F400E2C83E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC4ADFE152563F400E2C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4AE13152563F400E2C83E /* main.m in Sources */,
+				8AC4AE17152563F400E2C83E /* BarbershopAppDelegate.m in Sources */,
+				8AC4AE1D152563F400E2C83E /* BarbershopViewController.m in Sources */,
+				8AC4AE43152564BE00E2C83E /* PickerView.m in Sources */,
+				8AC4AE481525920B00E2C83E /* homeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4AE21152563F400E2C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC4AE37152563F400E2C83E /* BarbershopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AC4AE2D152563F400E2C83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AC4AE01152563F400E2C83E /* Barbershop */;
+			targetProxy = 8AC4AE2C152563F400E2C83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AC4AE0F152563F400E2C83E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4AE10152563F400E2C83E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AC4AE18152563F400E2C83E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4AE19152563F400E2C83E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8AC4AE1E152563F400E2C83E /* BarbershopViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4AE1F152563F400E2C83E /* en */,
+			);
+			name = BarbershopViewController.xib;
+			sourceTree = "<group>";
+		};
+		8AC4AE31152563F400E2C83E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC4AE32152563F400E2C83E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC4AE38152563F400E2C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AC4AE39152563F400E2C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AC4AE3B152563F400E2C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barbershop/Barbershop-Prefix.pch";
+				INFOPLIST_FILE = "Barbershop/Barbershop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AC4AE3C152563F400E2C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barbershop/Barbershop-Prefix.pch";
+				INFOPLIST_FILE = "Barbershop/Barbershop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AC4AE3E152563F400E2C83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Barbershop.app/Barbershop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barbershop/Barbershop-Prefix.pch";
+				INFOPLIST_FILE = "BarbershopTests/BarbershopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8AC4AE3F152563F400E2C83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Barbershop.app/Barbershop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barbershop/Barbershop-Prefix.pch";
+				INFOPLIST_FILE = "BarbershopTests/BarbershopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC4ADFC152563F400E2C83E /* Build configuration list for PBXProject "Barbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4AE38152563F400E2C83E /* Debug */,
+				8AC4AE39152563F400E2C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC4AE3A152563F400E2C83E /* Build configuration list for PBXNativeTarget "Barbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4AE3B152563F400E2C83E /* Debug */,
+				8AC4AE3C152563F400E2C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AC4AE3D152563F400E2C83E /* Build configuration list for PBXNativeTarget "BarbershopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC4AE3E152563F400E2C83E /* Debug */,
+				8AC4AE3F152563F400E2C83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC4ADF9152563F400E2C83E /* Project object */;
+}
